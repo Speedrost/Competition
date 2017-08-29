@@ -1,7 +1,18 @@
 head {
-	background-image: url("img_hora.jpeg");
 	
  }
+ body{ 
+ }
+ .hpozadi{ 
+	position: center;
+	padding-top: 0px;
+	 
+ }
+ .hbaner{
+	 position: center;
+	padding-bottom: 80px;
+ }
+	
  
 	
 	
