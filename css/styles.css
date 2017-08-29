@@ -18,6 +18,10 @@ head {
 	padding-bottom: 80px;
  }
 	
- 
+p {
+    border: 1px solid powderblue;
+    padding: 30px;
+	padding-right: 50%;
+	overflow: auto;
 	
 	
