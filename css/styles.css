@@ -2,6 +2,17 @@
 	text-indent: 50px;
 	margin: 0;
  }
+ h2 {
+	font-family: verdana;
+	font-weight: bold;
+}
+ p {
+    border: 1px solid powderblue;
+    padding: 30px;
+	padding-right: 50%;
+	overflow: auto;
+	font-family: 
+}
  .hpozadi{ 
 	position: center;
 	padding-top: 0px;
@@ -15,13 +26,6 @@
 	position: center;
 	padding-bottom: 80px;
  }
-	
-p {
-    border: 1px solid powderblue;
-    padding: 30px;
-	padding-right: 50%;
-	overflow: auto;
-}
  .topnav{
 	 position: fixed;
 	 top: 0;
@@ -30,19 +34,25 @@ p {
 	 width: 100%;
  } 
  .topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 100px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
 }
-
 .topnav a.active {
-	background-color: grey;
+	background-color: white;
+	color: black;
 }
 .topnav a:hover {
-	font-size: 20px;
+	background-color: rgb(130, 130, 130);
 }	
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+		
+}
