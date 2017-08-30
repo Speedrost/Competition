@@ -57,3 +57,6 @@ footer {
 	color: white;
 	text-align: center;
 }
+img .float {
+	float: left;
+}
