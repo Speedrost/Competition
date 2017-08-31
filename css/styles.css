@@ -41,11 +41,11 @@ table, th, td {
  .topnav{
 	position: fixed;
 	top: 0;
-	overflow: hidden;
 	background-color: rgb(95, 95, 95);
 	width: 100%;
 	font-variant: small-caps;
 	text-indent: 50px;
+	z-index: 9999;
  } 
  .topnav a {
 	float: left;
@@ -58,7 +58,7 @@ table, th, td {
 	font-weight: bold;
 }
 .topnav a.active {
-	background-color: white;
+	background-color: rgb(210, 210, 210);
 	color: black;
 }
 .topnav .icon {
@@ -88,8 +88,9 @@ table, th, td {
 }
 .imgakce {
 	height: 25%;
-	
-   
+}
+.vyprodano {
+	color: red;
 }
 
 div.gallery {
