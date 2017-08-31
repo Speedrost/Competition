@@ -1,6 +1,15 @@
- body{
-	margin: 0;
- }
+body {
+  position: relative;
+  margin: 0;
+
+  min-height: 100%;
+  }
+.footer {
+  background-color: rgb(39, 39, 39);
+  font-variant: small-caps;
+  text-decoration: none;
+  color: rgb(228, 228, 228);
+}
  h2 {
 	font-family: verdana;
 	font-weight: bold;
@@ -11,11 +20,6 @@
 	overflow: auto;
 	font-family: ;
 	text-indent: 0;
-}
-footer {
-	background-color: black;
-	color: white;
-	text-align: center;
 }
 img .float {
 	float: left;
@@ -34,14 +38,15 @@ table, th, td {
 	margin-right: auto;
  }
  .hbaner{
-	position: center;
 	padding-bottom: 80px;
+	position: center;
  }
  
  .topnav{
 	position: fixed;
 	top: 0;
 	background-color: rgb(95, 95, 95);
+	color: rgb(228, 228, 228);
 	width: 100%;
 	font-variant: small-caps;
 	text-indent: 50px;
@@ -92,6 +97,7 @@ table, th, td {
 .vyprodano {
 	color: red;
 }
+
 
 div.gallery {
     margin: 5px;
@@ -160,6 +166,3 @@ div.desc {
   background: #125688;
   color: white;
 }
-.buttons {
-	text-align= center;
-	}
