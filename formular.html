@@ -20,33 +20,52 @@
       <a href="kontakty.html">Kontakty</a>
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menu()">&#9776;</a>
     </div>
+	<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<form>
-			Jmeno:<br>
+			Jméno:<br>
 			<input type="text" name="firstname"><br>
-			Prijmeni:<br>
+			Příjmení:<br>
 			<input type="text" name="lastname"><br><br>
-			Zajezd:<br>
+			Zájezd:<br>
 			<input type="radio" name="zajezd" value="norsko" checked>Norsko<br>
 			<input type="radio" name="zajezd" value="slovinsko">Slovinsko<br>
 			<input type="radio" name="zajezd" value="norsko">Ohnova zeme<br><br>
-			Typ zajezdu:<br>
+			Typ zájezdu:<br>
 			<input type="radio" name="typ" value="clasic">Klasicke<br>
 			<input type="radio" name="typ" value="bonus">Bonus<br>
 			<input type="radio" name="typ" value="ex">Exclusive<br><br>
-			Pocet osob a jejich vek:<br>
-			<input type="checkbox" name="vosob" value="mdite">Dite do 3 let&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="mdpocet"><br>
-			<input type="checkbox" name="vosob" value="dite">Dite (do 15 let)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="dpocet"><br>
-			<input type="checkbox" name="vosob" value="dospely">Dospely&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="opocet"><br>
+			Počet osob a jejich věk:<br>
+			<input type="checkbox" name="vosob" value="mdite">Dítě do 3 let&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="mdpocet"><br>
+			<input type="checkbox" name="vosob" value="dite">Dítě (do 15 let)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="dpocet"><br>
+			<input type="checkbox" name="vosob" value="dospely">Dospělý&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="opocet"><br>
 			<input type="checkbox" name="vosob" value="senior">Senior&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="spocet"><br><br>
-			Termin zajezdu:<br>
-      
-			Telefonni cislo:<br>
+			Termín zájezdu:<br>
+			&nbsp;Norsko:<br>
+			&nbsp;&nbsp;<input type="radio" name="ntermin" value="kveten">17.5.2018 - 31.5.2018<br>
+			&nbsp;&nbsp;<input type="radio" name="ntermin" value="cerven" disabled>5.6.2018 - 19.6.2018 <i class="vyprodano">Zájezd vyprodán</i><br>
+			&nbsp;&nbsp;<input type="radio" name="ntermin" value="cervenec" disabled>3.7.2018 - 17.7.2018 <i class="vyprodano">Zájezd vyprodán</i><br>
+			&nbsp;&nbsp;<input type="radio" name="ntermin" value="srpen" checked>15.8.2018 - 29.8.2018<br>
+			&nbsp;Slovinsko:<br>
+			&nbsp;&nbsp;<input type="radio" name="stermin" value="kveten">12.5.2018 - 28.5.2018<br>
+			&nbsp;&nbsp;<input type="radio" name="stermin" value="cerven">3.6.2018 - 19.6.2018<br>
+			&nbsp;&nbsp;<input type="radio" name="stermin" value="cervenec" disabled>16.7.2018 - 1.8.2018 <i class="vyprodano">Zájezd vyprodán</i><br>
+			&nbsp;&nbsp;<input type="radio" name="stermin" value="srpen" checked>8.8.2018 - 24.8.2018<br>
+			&nbsp;Ohňová země:<br>
+			&nbsp;&nbsp;<input type="radio" name="otermin" value="kveten">5.5.2018 - 6.6.2018 <i class="vyprodano">Zájezd vyprodán</i><br>
+			&nbsp;&nbsp;<input type="radio" name="otermin" value="cerven" disabled>11.6.2018 - 12.7.2018 <i class="vyprodano">Zájezd vyprodán</i><br>
+			&nbsp;&nbsp;<input type="radio" name="otermin" value="cervenec" disabled>2.7.2018 - 3.8.2018 <i class="vyprodano">Zájezd vyprodán</i><br>
+			&nbsp;&nbsp;<input type="radio" name="otermin" value="srpen" checked>9.8.2018 - 10.9.2018<br>
+			Telefonní číslo:<br>
 			<input type="tel" name="usrtel"><br><br>
 			E-mail:<br>
 			<input type="email" name="email"><br><br>
 			Adresa:<br>
-			<textarea rows="4" cols="50" placeholder="Napiste svoji adresu..."></textarea>
+			<textarea rows="4" cols="50" placeholder="Napište svoji adresu..."></textarea><br><br>
 		</form>
+		<form action="error.html">
+					<input type="submit" value="Zjisti vic"/>
+				</form>
+	</div>
 		
 		
 		<script src="js/jquery3.2.1.min.js"></script>
